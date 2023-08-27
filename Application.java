@@ -1,5 +1,22 @@
-
+/**
+ * This class allows you to create a small bag with items
+ * @author Chase Hall
+ * @version 8/27/23
+ * CS215_Assignement_0.1_COH
+ * Fall 2023
+ * 
+ */
 public class Application {
+	/**
+	 * Default
+	 */
+	Application(){
+		
+	}
+/**
+ * Main loop of application
+ * @param args arguments of main method
+ */
 
 	public static void main(String[] args) {
 		Item<String> s = new Item<>();
@@ -19,6 +36,6 @@ public class Application {
 	    
 	    Item<Integer> ri = bag1.getItem();
 		System.out.println(ri.getE());
-	}
+	}//end main
 
-}
+}//end class
